@@ -214,6 +214,10 @@ When the image is Haar transformed and then quantised, the file size is smaller 
 
 In conclusion, applying the Haar transform allows the user to quantise an image to reduce its size while avoiding obvious artefacts in the final image. 
 
+
+$~~~~~~~~~~~$
+
+
 ## References
 
 [1] - Thum, C. (1984). Measurement of the Entropy of an Image with Application to Image
