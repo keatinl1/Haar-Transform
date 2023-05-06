@@ -20,8 +20,10 @@ figure(1)
 imshow(H, [])
 title('Image before compression')
 ```
+<div align="center">
 ![alt text](https://raw.githubusercontent.com/keatinl1/image-processing/main/figures/lena512.png)
-
+Figure 1:Original Image
+</div>
 ### 2.2 - Quantisation alone
 
 Quantisation is a method of lossy compression. The aim is to make a greater number of pixels have the same value so the values can be stored more compactly while still resembling the original image. The equation to quantise an image is:
