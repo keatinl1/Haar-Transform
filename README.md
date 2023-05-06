@@ -3,6 +3,7 @@
 ## 1 - Introduction
 For this project, an image was taken and was compressed using two different methods, quantisation and a Haar transform which was then quantised. The different techniques were then compared and conclusions were made. This project was done using MATLAB
 
+
 ## 2 - Methodology
 ### 2.1 - Setup
 Firstly, the workspace was cleared and then the image that was being processed was imported. It is a test image of Lena Forsén, used to compare compression techniques, it is shown in figure 1
@@ -31,7 +32,7 @@ $$
 
 It is implemented using the following lines of code:
 
-```matlab
+```Matlab
 %% Just quantisation
 
 Q_step = 15 ;
