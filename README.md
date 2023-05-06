@@ -190,7 +190,7 @@ Figure 3: Result of Haar Transform
 Figure 4: Reconstructed Quantised Haar
 
 
-<h6 align="center">Table 1: Evaluations</h6>
+<h5 align="center">Table 1: Evaluations</h5>
 
 |  | Entropy | PSNR | File size (kB) |
 | --- | --- | --- | --- |
