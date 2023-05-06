@@ -190,6 +190,7 @@ $~~~~~~~~~~~$
 
 <p align="center">
   <img width="512" height="512" src="https://raw.githubusercontent.com/keatinl1/image-processing/main/figures/lena512Q.png">
+  Figure 2: Quantised image
 </p>
 <div align="center">
   Figure 2: Quantised image
