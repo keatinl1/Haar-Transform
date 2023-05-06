@@ -192,8 +192,8 @@ Figure 4: Reconstructed Quantised Haar
 <p align="center">
 
   Table 1: Evaluations
-
 </p>
+
 |  | Entropy | PSNR | File size (kB) |
 | --- | --- | --- | --- |
 | Original | 7.4474 | ∞ | 151 |
