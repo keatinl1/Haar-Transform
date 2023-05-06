@@ -22,15 +22,13 @@ title('Image before compression')
 ```
 
 <p align="center">
-  <img width="460" height="300" src="https://raw.githubusercontent.com/keatinl1/image-processing/main/figures/lena512.png">
+  <img width="512" height="512" src="https://raw.githubusercontent.com/keatinl1/image-processing/main/figures/lena512.png">
 </p>
 
 
 
 <div align="center">
-![alt text](https://raw.githubusercontent.com/keatinl1/image-processing/main/figures/lena512.png)
-
-Figure 1:Original Image
+  Figure 1:Original Image
 </div>
 
 ### 2.2 - Quantisation alone
