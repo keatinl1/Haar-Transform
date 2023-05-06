@@ -1,5 +1,6 @@
-Haar transform
+# Haar-Transform
 
-I have explained what is happening in the code at this webpage:
+## 1 - Introduction
+For this project, an image was taken and was compressed using two different methods, quantisation and a Haar transform which was then quantised. The different techniques were then compared and conclusions were made. This project was done using MATLAB
 
-https://www.notion.so/keatinl1/DMP-f299071795334aadb996d3434392d2fa
+
