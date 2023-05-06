@@ -195,12 +195,17 @@ $~~~~~~~~~~~$
   Figure 2: Quantised image
 </div>
 
+$~~~~~~~~~~~$
+
+
 <p align="center">
   <img width="512" height="512" src="https://raw.githubusercontent.com/keatinl1/image-processing/main/figures/Lena512T.png">
 </p>
 <div align="center">
   Figure 3: Result of Haar Transform
 </div>
+
+$~~~~~~~~~~~$
 
 <p align="center">
   <img width="512" height="512" src="https://raw.githubusercontent.com/keatinl1/image-processing/main/figures/lena512QH.png">
