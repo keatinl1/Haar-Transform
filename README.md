@@ -67,6 +67,7 @@ LoHi & HiHi
 \end{bmatrix}\\
 
 $$
+$$
 
 where,
 
