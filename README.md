@@ -6,9 +6,9 @@ For this project, an image was taken and was compressed using two different meth
 
 ## 2 - Methodology
 ### 2.1 - Setup
-Firstly, the workspace was cleared and then the image that was being processed was imported. It is a test image of Lena Forsén, used to compare compression techniques, it is shown in figure 1
+Firstly, the workspace was cleared and then the image that was being processed was imported. It is a test image of Lena Forsén, used to compare compression techniques, it is shown in figure 1.
 
-'''Matlab
+```matlab
 %% Setup and import image
 
 clc; clear; close all;
@@ -18,7 +18,7 @@ H = double(imread('lena512.png')) ;
 figure(1)
 imshow(H, [])
 title('Image before compression')
-'''
+```
 
 ### 2.2 - Quantisation alone
 
