@@ -176,6 +176,9 @@ MATLAB has an inbuilt function to calculate PSNR, so this was used.
 PSNR = psnr(A, ref, peakval) ;
 ```
 
+$~~~~~~~~~~~$
+
+
 ## 3 - Results
 
 ![Figure 2: Quantised image](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7ad10e52-1354-4167-9a49-4cb675043532/Untitled.png)
@@ -198,6 +201,10 @@ Figure 4: Reconstructed Quantised Haar
 | Original | 7.4474 | ∞ | 151 |
 | Quantised | 3.5798 | 35.3470 | 95 |
 | Quantised Haar | 6.3692 | 37.1465 | 93 |
+
+
+$~~~~~~~~~~~$
+
 
 ## 4 - Discussion and conclusions
 
