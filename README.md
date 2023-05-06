@@ -1,13 +1,15 @@
 # Haar-Transform
 
 ## 1 - Introduction
-For this project, an image was taken and was compressed using two different methods, quantisation and a Haar transform which was then quantised. The different techniques were then compared and conclusions were made. This project was done using MATLAB
+For this project, an image was taken and was compressed using two different methods. Quantisation alone and Haar transformation followed by quantisation. The results were then compared and conclusions were made. 
+
+This project was done in MATLAB.
 
 $~~~~~~~~~~~$
 
 ## 2 - Methodology
 ### 2.1 - Setup
-Firstly, the workspace was cleared and then the image that was being processed was imported. It is a test image of Lena Forsén, used to compare compression techniques, it is shown in figure 1.
+Firstly, the workspace was cleared and the image imported. It is a test image of Lena Forsén, it is shown in figure 1.
 
 ```matlab
 %% Setup and import image
@@ -30,9 +32,7 @@ title('Image before compression')
 
 ### 2.2 - Quantisation alone
 
-Quantisation is a method of lossy compression. The aim is to make a greater number of pixels have the same value so the values can be stored more compactly while still resembling the original image. The equation to quantise an image is:
-
-Quantisation is a method of lossy compression. The aim is to make a greater number of pixels have the same value so the values can be stored more compactly while still resembling the original image. The equation to quantise an image is:
+Quantisation is a method of lossy compression. The aim is to make a greater number of pixels have the same value so the values can be stored more compactly. The equation to quantise an image is:
 
 $$
 I_{quantised}=Q_{step} \cdot round(I_{original} / Q_{step})
@@ -52,7 +52,16 @@ imshow(Q_no_Haar, [])
 title('Image compressed with just quantisation')
 ```
 
-The resulting image is shown in figure 2.
+The resulting image is shown in figure 2 in the results section.
+
+<p align="center">
+  <img width="512" height="512" src="https://raw.githubusercontent.com/keatinl1/image-processing/main/figures/lena512Q.png">
+</p>
+<div align="center">
+  Figure 2: Quantised image
+</div>
+
+$~~~~~~~~~~~$
 
 ### 2.3 - Quantised Haar transform
 
@@ -90,7 +99,7 @@ LoHi = 𝑎 + 𝑏 − 𝑐 − d \\
 HiHi = 𝑎 − 𝑏 − 𝑐 + d\\
 ```
 
-These equations are implemented as so:
+These equations are implemented using the following lines of code:
 
 ```matlab
 %% Haar transform quantised, then inverse Haar
@@ -119,7 +128,16 @@ imshow(Lena_haar_2, [])
 title('Image quantisatised Haar')
 ```
 
-The result of this transformation is shown in figure 3.
+The result of this transformation is shown in figure 3 in the results section.
+
+<p align="center">
+  <img width="512" height="512" src="https://raw.githubusercontent.com/keatinl1/image-processing/main/figures/Lena512T.png">
+</p>
+<div align="center">
+  Figure 3: Result of Haar Transform
+</div>
+
+$~~~~~~~~~~~$
 
 The resulting image is then quantised:
 
@@ -159,9 +177,18 @@ imshow(R, [])
 title('Quantised Haar image')
 ```
 
-The resulting image is shown in figure 4.
+The resulting image is shown in figure 4 in the results section.
 
-### 2.4 - Evaluation criteria
+<p align="center">
+  <img width="512" height="512" src="https://raw.githubusercontent.com/keatinl1/image-processing/main/figures/lena512QH.png">
+</p>
+<div align="center">
+  Figure 4: Reconstructed Quantised Haar
+</div>
+
+$~~~~~~~~~~~$
+
+## 3 - Comparisons
 
 The entropy of an image is a measure of the degree of randomness in the image [1]. The equation for calculating entropy is shown below, and the code implementation is shown after. Higher entropy means a more detailed image.
 
@@ -182,38 +209,6 @@ MATLAB has an inbuilt function to calculate PSNR, so this was used.
 ```matlab
 PSNR = psnr(A, ref, peakval) ;
 ```
-
-$~~~~~~~~~~~$
-
-
-## 3 - Results
-
-<p align="center">
-  <img width="512" height="512" src="https://raw.githubusercontent.com/keatinl1/image-processing/main/figures/lena512Q.png">
-</p>
-<div align="center">
-  Figure 2: Quantised image
-</div>
-
-$~~~~~~~~~~~$
-
-
-<p align="center">
-  <img width="512" height="512" src="https://raw.githubusercontent.com/keatinl1/image-processing/main/figures/Lena512T.png">
-</p>
-<div align="center">
-  Figure 3: Result of Haar Transform
-</div>
-
-$~~~~~~~~~~~$
-
-<p align="center">
-  <img width="512" height="512" src="https://raw.githubusercontent.com/keatinl1/image-processing/main/figures/lena512QH.png">
-</p>
-<div align="center">
-  Figure 4: Reconstructed Quantised Haar
-</div>
-
 
 <h5 align="center">Table 1: Evaluations</h5>
 
