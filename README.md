@@ -67,7 +67,9 @@ LoHi & HiHi
 \end{bmatrix}\\
 ```
 ```math
+\begin{aligned}
 where,
+\end{aligned}
 ```
 ```math
 LoLo = 𝑎 + 𝑏 + 𝑐 + d \\
