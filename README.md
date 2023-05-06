@@ -52,6 +52,14 @@ The Haar transform is a simple wavelet transform. A wavelet transform is a repre
 
 It is calculated using the following equations:
 
+```math
+x=
+\begin{bmatrix}
+a & b \\
+c & d
+\end{bmatrix}
+```
+
 $$
 x=
 \begin{bmatrix}
