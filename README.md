@@ -78,7 +78,7 @@ HiLo = 𝑎 − 𝑏 + 𝑐 − d \\
 LoHi = 𝑎 + 𝑏 − 𝑐 − d \\
 ```
 ```math
-HiHi = 𝑎 − 𝑏 − 𝑐 + d
+HiHi = 𝑎 − 𝑏 − 𝑐 + d\\
 ```
 
 These equations are implemented as so:
