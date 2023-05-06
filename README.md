@@ -65,9 +65,11 @@ y=\frac{1}{2}
 LoLo & HiLo \\
 LoHi & HiHi
 \end{bmatrix}\\
-
+```
+```math
 where,
-
+```
+```math
 LoLo = 𝑎 + 𝑏 + 𝑐 + d \\
 HiLo = 𝑎 − 𝑏 + 𝑐 − d \\
 LoHi = 𝑎 + 𝑏 − 𝑐 − d \\
