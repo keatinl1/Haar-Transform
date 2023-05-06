@@ -20,6 +20,13 @@ figure(1)
 imshow(H, [])
 title('Image before compression')
 ```
+
+<p align="center">
+  <img width="460" height="300" src="https://raw.githubusercontent.com/keatinl1/image-processing/main/figures/lena512.png">
+</p>
+
+
+
 <div align="center">
 ![alt text](https://raw.githubusercontent.com/keatinl1/image-processing/main/figures/lena512.png)
 
