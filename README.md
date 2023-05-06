@@ -70,10 +70,15 @@ LoHi & HiHi
 where,
 
 ```math
-&LoLo = 𝑎 + 𝑏 + 𝑐 + d \\
-&HiLo = 𝑎 − 𝑏 + 𝑐 − d \\
-&LoHi = 𝑎 + 𝑏 − 𝑐 − d \\
-&HiHi = 𝑎 − 𝑏 − 𝑐 + d
+LoLo = 𝑎 + 𝑏 + 𝑐 + d \\
+```
+```math
+HiLo = 𝑎 − 𝑏 + 𝑐 − d \\
+```math
+LoHi = 𝑎 + 𝑏 − 𝑐 − d \\
+```
+```math
+HiHi = 𝑎 − 𝑏 − 𝑐 + d
 ```
 
 These equations are implemented as so:
