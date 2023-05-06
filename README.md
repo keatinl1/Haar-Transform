@@ -68,7 +68,7 @@ LoHi & HiHi
 
 $$
 
-$*where,*$
+where,
 
 $$
 LoLo = 𝑎 + 𝑏 + 𝑐 + d \\
