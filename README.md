@@ -28,7 +28,7 @@ title('Image before compression')
 
 
 <div align="center">
-  Figure 1:Original Image
+  Figure 1: Image before compression
 </div>
 
 ### 2.2 - Quantisation alone
