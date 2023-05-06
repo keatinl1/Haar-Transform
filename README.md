@@ -20,6 +20,7 @@ figure(1)
 imshow(H, [])
 title('Image before compression')
 ```
+![alt text](https://raw.githubusercontent.com/keatinl1/image-processing/main/figures/lena512.png)
 
 ### 2.2 - Quantisation alone
 
