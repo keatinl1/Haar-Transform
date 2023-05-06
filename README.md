@@ -66,11 +66,9 @@ LoLo & HiLo \\
 LoHi & HiHi
 \end{bmatrix}\\
 ```
-```math
-\begin{aligned}
+
 where,
-\end{aligned}
-```
+
 ```math
 LoLo = 𝑎 + 𝑏 + 𝑐 + d \\
 HiLo = 𝑎 − 𝑏 + 𝑐 − d \\
