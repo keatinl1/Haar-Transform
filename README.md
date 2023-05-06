@@ -202,10 +202,12 @@ $~~~~~~~~~~~$
   Figure 3: Result of Haar Transform
 </div>
 
-
-![Figure 4: Reconstructed Quantised Haar](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/4ef0f2d6-629e-4911-8766-d7356c96640c/Untitled.png)
-
-Figure 4: Reconstructed Quantised Haar
+<p align="center">
+  <img width="512" height="512" src="https://raw.githubusercontent.com/keatinl1/image-processing/main/figures/lena512QH.png">
+</p>
+<div align="center">
+  Figure 4: Reconstructed Quantised Haar
+</div>
 
 
 <h5 align="center">Table 1: Evaluations</h5>
