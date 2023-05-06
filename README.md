@@ -65,33 +65,14 @@ y=\frac{1}{2}
 LoLo & HiLo \\
 LoHi & HiHi
 \end{bmatrix}\\
-```
-
-$$
-x=
-\begin{bmatrix}
-a & b \\
-c & d
-\end{bmatrix}
-; \quad
-
-y=\frac{1}{2}
-\begin{bmatrix}
-LoLo & HiLo \\
-LoHi & HiHi
-\end{bmatrix}\\
-
-$$
-$$
 
 where,
 
-$$
 LoLo = 𝑎 + 𝑏 + 𝑐 + d \\
 HiLo = 𝑎 − 𝑏 + 𝑐 − d \\
 LoHi = 𝑎 + 𝑏 − 𝑐 − d \\
 HiHi = 𝑎 − 𝑏 − 𝑐 + d
-$$
+```
 
 These equations are implemented as so:
 
