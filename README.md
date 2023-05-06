@@ -21,6 +21,13 @@ imshow(H, [])
 title('Image before compression')
 ```
 
+<p align="center">
+  <img width="512" height="512" src="https://raw.githubusercontent.com/keatinl1/image-processing/main/figures/lena512.png">
+</p>
+<div align="center">
+  Figure 1: Image before compression
+</div>
+
 ### 2.2 - Quantisation alone
 
 Quantisation is a method of lossy compression. The aim is to make a greater number of pixels have the same value so the values can be stored more compactly while still resembling the original image. The equation to quantise an image is:
@@ -181,9 +188,12 @@ $~~~~~~~~~~~$
 
 ## 3 - Results
 
-![Figure 2: Quantised image](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7ad10e52-1354-4167-9a49-4cb675043532/Untitled.png)
-
-Figure 2: Quantised image
+<p align="center">
+  <img width="512" height="512" src="https://raw.githubusercontent.com/keatinl1/image-processing/main/figures/lena512Q.png">
+</p>
+<div align="center">
+  Figure 2: Quantised image
+</div>
 
 ![Figure 3: Result of Haar Transform](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/757c614f-bba5-4052-8eb2-d5720da16c87/Untitled.png)
 
