@@ -58,6 +58,13 @@ x=
 a & b \\
 c & d
 \end{bmatrix}
+; \quad
+
+y=\frac{1}{2}
+\begin{bmatrix}
+LoLo & HiLo \\
+LoHi & HiHi
+\end{bmatrix}\\
 ```
 
 $$
